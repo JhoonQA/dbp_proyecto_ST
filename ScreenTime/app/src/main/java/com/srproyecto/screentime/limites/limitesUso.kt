@@ -18,7 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-class LimitesUso {
+class limitesUso {
 
     private val TealBase = Color(0xFF77BBBB)
     private val TealLight = Color(0xFF92E1E1)
