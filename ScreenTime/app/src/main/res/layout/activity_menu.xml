@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#77bbbb">
+
+    <Button
+        android:id="@+id/btnHorario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="55dp"
+        android:text="Segun Horario"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnUsoDiario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="27dp"
+        android:text="Establecer limites de uso diario"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnModos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="27dp"
+        android:text="Modos predefinidos"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btnDescanso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="27dp"
+        android:text="Cpnfiguracion de Descanso"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btnConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="27dp"
+        android:text="Configuracion de limites"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btnLimites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="27dp"
+        android:text="Limites por App"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btnReportes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="27dp"
+        android:text="reportes y exportacion"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
