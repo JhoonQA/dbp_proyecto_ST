@@ -23,7 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
-class Reportes {
+class reportes {
 
     private val TealBase = Color(0xFF77BBBB)
     private val TealLight = Color(0xFF92E1E1)
