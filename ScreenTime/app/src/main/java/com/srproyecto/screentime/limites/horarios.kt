@@ -18,7 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
-class Horarios {
+class horarios {
 
     private val TealBase = Color(0xFF77BBBB)
     private val OnTeal = Color(0xFF000000)
