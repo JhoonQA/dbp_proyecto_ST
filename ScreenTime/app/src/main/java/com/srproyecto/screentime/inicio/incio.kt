@@ -1,4 +1,4 @@
-package com.srproyecto.screentime.inicio
+package com.srproyecto.screentime.Inicio
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.Image
 
-class inicio {
+class Inicio {
 
     @Composable
     fun ClaveSeguridadScreen(onRegistrarClick: () -> Unit = {}) {
@@ -104,7 +104,7 @@ class inicio {
             }
         }
     }
-
+    // JetpackCompose
     @Preview(showBackground = true)
     @Composable
     fun PreviewClaveSeguridadScreen() {
